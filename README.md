@@ -1,4 +1,4 @@
-# NetworkScanner
+# Network Scanner
 
 ## Overview
 
@@ -11,20 +11,24 @@ NetworkScanner is a basic but efficient tool designed to scan and analyze networ
 - Identification of potential vulnerabilities
 - User-friendly command-line interface
 
+## Requirements
+
+- Python 3.x
+- Scapy library
+
 ## Installation
 
-To install NetworkScanner, follow these steps:
+To install Network-Scanner, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/NetworkScanner.git
+   git clone https://github.com/andymartinez1/Network-Scanner.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd NetworkScanner
+   cd Network-Scanner
    ```
 3. Install the required dependencies:
-
    ```sh
    pip install scapy
    ```
@@ -34,7 +38,7 @@ To install NetworkScanner, follow these steps:
    To use NetworkScanner, run the following command:
 
    ```sh
-   python3 network_scanner.py
+   python3 NetworkScanner.py
    ```
 
    You can also specify additional options:
@@ -44,12 +48,12 @@ To install NetworkScanner, follow these steps:
    Example:
 
    ```sh
-   python3 network_scanner.py -t 192.168.0.0/24
+   python3 NetworkScanner.py -t 192.168.0.0/24
    ```
 
    ## Contributing
 
-   We welcome contributions! Please follow these steps to contribute:
+   I am open to contributions! Please follow these steps to contribute:
 
    1. Fork the repository.
    2. Create a new branch:
